@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/topcv.css">
+  <title>Homepage</title>
+</head>
+
+<body>
+  <!-- content -->
+  <div
+    style="background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),url(assets/img/wallpaper.jpg) center right; background-size: cover;">
+    <div class="container d-flex flex-column" style="min-height: 105vh;">
+      <div class="row my-auto">
+        <div class="col-lg-6 col-md-10 col-sm-12 mx-auto my-5 py-5">
+          <div class="card border-0">
+            <div class="card-header bg-transparent px-5">
+              <h2 class="h4 pt-3 pb-2">Welcome</h2>
+            </div>
+            <div class="card-block pt-4 px-5 pb-1">
+              <form id="login_form" onSubmit="return logIn();">
+                <div class="form-group">
+                  <label class="text-secondary" for="username_input"><small>Username</small></label>
+                  <input class="form-control form-control-lg rounded-0" id="username_input" type="text"
+                    placeholder="Username" required>
+                </div>
+                <div class="form-group mb-3">
+                  <label class="text-secondary" for="password_input"><small>Password</small></label>
+                  <input class="form-control form-control-lg rounded-0" id="password_input" type="password"
+                    placeholder="Password" required>
+                </div>
+                <div class="form-check mb-4">
+                  <label class="form-check-label text-secondary">
+                    <input class="form-check-input mr-2" type="checkbox" value="" id="remember_checkbox">Remember Me
+                  </label>
+                </div>
+                <button class="btn btn-lg btn-warning mb-4 w-100 rounded-0" type="submit">Login</button>
+                <hr>
+                <p>
+                  <small>
+                    <a class="text-warning" href="#">Register</a>
+                    <a class="text-warning" href="#" style="float: right;">Forgot password</a>
+                  </small>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <script src="./js/jquery-3.4.1.slim.min.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/topcv.js"></script>
+</body>
+
+</html>
